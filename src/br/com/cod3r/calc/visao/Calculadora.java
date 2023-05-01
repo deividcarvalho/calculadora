@@ -30,7 +30,9 @@ public class Calculadora extends JFrame{
 	}
 	
 	private void organizarLayout() {
+		//Gerenciador de Layout
 		setLayout(new BorderLayout());
+		
 		//adicinar os componentes
 		Display display = new Display();
 		display.setPreferredSize(new Dimension(233,60));
