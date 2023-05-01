@@ -17,8 +17,8 @@ public class Display extends JPanel implements MemoriaObservador {
 
 	public Display() {
 
-		Memoria.getInstancia().AdicionarObservador(this);//está interessado em ser notificado
-		
+		Memoria.getInstancia().AdicionarObservador(this);// está interessado em ser notificado
+
 		setBackground(new Color(46, 49, 50)); // definir a cor de fundo do Display
 		label.setForeground(Color.WHITE); // Definir a cor branca para o label
 		label.setFont(new Font("courier", Font.PLAIN, 30)); // Nome da fonte, estilo e tamanho

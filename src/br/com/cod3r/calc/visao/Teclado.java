@@ -78,7 +78,7 @@ public class Teclado extends JPanel implements ActionListener { // O teclado esc
 
 	}
 
-	// Método que escuda cada botão
+	// Método que escuta evento de cada botão
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() instanceof JButton) {
